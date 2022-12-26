@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+  margin: auto;
+  padding: auto;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #121317;
+  padding-bottom: 50px;
+}
+
+td a:link, a:visited, a:active
+{
+    color: #92c8ff;
+    text-decoration: none;
+}
+
+td img {
+  align-content: center;
+  margin: auto;
+}
+
+td a:hover {
+  color: #78b9ff;
+  text-decoration: none;
+}
+
+.top {
+  margin-top: 25px;
+}
+
+body .tit {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgb(102, 192, 244);
+  font-weight: 1;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-shadow: 1px 1px 5px rgb(0, 0, 0);
+  font-size: 45px;
+}
+
+body .tit-credits {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgb(102, 192, 244)	;
+  font-weight: 1;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-shadow: 1px 1px 5px rgb(0, 0, 0);
+  font-size: 35px;
+}
+
+/* needs replacement */
+body .tit-date {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-style: italic;
+  text-align: center;
+  color: 	rgb(199, 213, 224)	;
+  font-weight: 1;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-shadow: 1px 1px 5px rgb(0, 0, 0);
+  font-size: 25px;
+}
+
+body .tit-tit {
+  color: 	rgb(42, 71, 94);
+  font-family: 'Oswald', sans-serif;
+}
+
+.tit-tit-sub {
+  color: 		rgb(27, 40, 56);
+  font-family: 'Oswald', sans-serif;
+}
+
+.table-sortable th { /* catergory titles */
+  cursor: pointer;
+  padding: 15px;
+  font-size: 20px;
+  background-color: rgb(144, 197, 255);
+  margin: auto;
+  color: #121317;
+  text-transform: uppercase;
+  border-radius: 5px 5px 0px 0px;
+  border: 1px rgb(55, 95, 136) solid;
+  border-bottom: 5px solid rgb(55, 95, 136);
+  font-family: 'Oswald', sans-serif;
+  font-weight: 1;
+  overflow: auto;
+  table-layout: fixed;
+  position: sticky;   
+  top: 0; 
+}
+
+.table-sortable tr { /* catergory content */
+  cursor: pointer;
+  padding: 5px;
+  font-size: 20px;
+  align-items: center;
+  background-color: #181f31;
+  margin: auto;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  text-transform: inherit;
+  color: #c8d3de;
+}
+
+.rating {
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 5px rgb(29, 29, 29)
+}
+
+.table-sortable .th-sort-asc::after {
+  content: "\25b4";
+}
+
+.table-sortable .th-sort-desc::after {
+  content: "\25be";
+}
+
+.table-sortable .th-sort-asc::after,
+.table-sortable .th-sort-desc::after {
+  margin-left: 10px;
+}
+
+.table-sortable .th-sort-asc,
+.table-sortable .th-sort-desc {
+  background: rgb(114, 202, 242);
+}
+
+
+h2 {
+  text-align: center;
+  font-size: 15px;
+  font-family: "Robot", sans-serif;
+  color: white;
+  font-weight: 1;
+  font-style: italic;
+  margin: auto;
+  padding: 10px;
+  border: 1px solid #424855;
+  width: 200px;
+  text-decoration: none;
+}
+
+h2:hover {
+  background-color: rgb(147, 147, 147);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h3 {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Robot", sans-serif;
+  color: rgb(104, 102, 113);
+  font-weight: 1;
+  font-style: italic;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.average {
+  color: white;
+}
+
+/* Colors */
+.blue {
+  color: rgb(66, 201, 255);
+}
+
+.orange {
+  color: rgb(255, 189, 66);
+}
+
+.orange-bg {
+  background-color: rgb(255, 189, 66);
+}
+
+.blue-bg {
+  background-color: rgb(66, 201, 255);
+}
+
+.red-bg {
+  background-color: rgb(255, 66, 66);
+}
+
+.purple-bg { /* Chapters */
+  background-color: rgb(129, 66, 255);
+}
+
+.green-bg { /* Story */
+  background-color: rgb(47, 196, 99);
+}
+
+.dark-blue-bg { /* Misc */
+  background-color: rgb(69, 66, 255);
+}
+
+.pink-bg { /* Myth */
+  background-color: rgb(255, 66, 201);
+}
+
+.grey-bg {
+  background-color: rgb(149, 149, 149);
+}
+
+.yellow-bg { /* Minigame */
+  background-color: rgb(211, 196, 27);
+}
+
+.dark-green-bg { /* Story */
+  background-color: rgb(29, 108, 57);
+}
+
+/* Style for game tags */
+.tag {
+  border-radius: 0.7em;
+  padding: 2px;
+  font-size: 12px;
+  justify-content: space-around;
+  text-align: center;
+  margin: auto;
+  text-shadow: 1px 1px 5px rgb(29, 29, 29);
+  box-shadow: 1px 1px 5px rgb(29, 29, 29);
+}
+
+
+/* Loader Styling*/
+
+.content {
+  display: none;
+}
+.loader {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-color: #121317;
+  position: absolute;
+}
+
+.loader>div {
+  height: 100px;
+  width: 100px;
+  border: 1px solid #424855;
+  border-top-color: rgb(147, 147, 147);
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 50%;
+  animation: spin 1.5s infinite linear;
+}
+
+@keyframes spin {
+  100%{
+    transform: rotate(360deg);
+  }
+}
